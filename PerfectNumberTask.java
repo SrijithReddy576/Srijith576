@@ -11,7 +11,7 @@ public class PerfectNumberTask {
 	{
 		System.out.println("Please enter the Number");
 		int Number = sc.nextInt();
-		for (int i = 1; i < Number; i++) {
+		for (int i = 1; i < Number/2; i++) {
 			if (Number % i == 0) {
 				sum = sum + i;
 			}
